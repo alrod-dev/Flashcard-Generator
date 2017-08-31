@@ -1,9 +1,12 @@
+// Author: Alfredo Rodriguez
+// File: JS - CardApp.js
+// Date: 8/30/2017
 
-
+//Requires BasicCard.js and ClozeCard.js
 var BasicCard = require("./BasicCard");
 var ClozeCard = require("./ClozeCard");
 
-
+//Creates A Basic Card object
 var firstPresident = new BasicCard(
     "Who was the first president of the United States?", "George Washington");
 
